@@ -1,0 +1,72 @@
+#h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color:#003b31;
+    background-color:#6a9582;
+}
+
+body{
+    background-color: rgb(209, 228, 212);
+}
+
+#imageDino1{
+    width: 27.5%;
+    height: auto;
+    margin-left: 4%;
+}
+
+#imageDino2{
+    width: 21%;
+    height: auto;
+}
+
+#imageDino3{
+    width: 22%;
+    height: auto;
+}
+
+#imageDino4{
+    width: 14%;
+    height: auto;
+}
+
+.dinos{
+    border: 2px dotted rgb(6, 40, 6);
+    border-collapse:collapse;
+    width:15em;
+    height: auto;
+}
+
+#tableau{
+    text-align: center;
+    margin-left: 7%;
+    align-items: center;
+    width: 85%;
+    height: auto;
+}
+
+#addBtn{
+    width:10em;
+    height: auto;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color:#6a9582;
+    border-radius: 15px; 
+}
+#period-select, #food-select{
+    background-color: #bddb9e;
+}
+.btnJS{
+    background-color:#6a9582;
+    width: 101%;
+}
+td{
+    border: solid 1px rgb(6, 40, 6);
+    border-collapse:collapse;
+}
+
+#name, #size, #weight, #habitat{
+    background-color:#e5f7ee ;
+}

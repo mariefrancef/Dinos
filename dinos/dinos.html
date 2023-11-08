@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="dinos.js" defer></script>
+    <link href="dinos.css" rel="stylesheet">
+    <title>Exo Dinos</title>
+</head>
+<body>
+
+    <div id="h1">
+        <h1>Let's go Dinos !</h1>
+    </div>
+    
+    <label for="name"> Name of Dinos </label>
+    <input type="text" id="name"/>
+
+    <label for="size"> Size </label>
+    <input type="text" id="size"/>
+
+    <label for="weight"> Weight </label>
+    <input type="text" id="weight"/>
+
+    <!-- select input -->
+    <label for="food-select"> Type of food </label>
+    <select name="dinos" id="food-select">
+        <option value="herbivorous">Herbivorous</option>
+        <option value="carnivorous">Carnivorous</option>
+    </select>
+
+    <label for="habitat"> Habitat </label> select
+    <input type="text" id="habitat"/>
+
+    <!-- select input -->
+    <label for="period-select"> Period </label>
+    <select name="dinos" id="period-select">
+        <option value="trias">Trias</option>
+        <option value="jurassic">Jurassic</option>
+        <option value="cretaceous">Cretaceous</option>
+    </select>
+
+    <button id="addBtn">Add Dinos</button>
+
+    <table id="tableau">
+        <thead>
+            <tr id="dinoTable">
+                <th class="dinos"> Name of Dinos </th>
+                <th class="dinos"> Size </th>
+                <th class="dinos"> Weight </th>
+                <th class="dinos"> Type of food </th>
+                <th class="dinos"> Habitat select  </th>
+                <th class="dinos">  Period </th>
+            </tr>
+        </thead>
+        <tbody id="mytBody">
+  
+        </tbody>
+    </table>
+    <div>
+        <img src="images/cuteDino.png" id="imageDino1" alt="image dinosaure">
+        <img src="images/dino3.png" id="imageDino2" alt="image dinosaure">
+        <img src="images/teaRex.png" id="imageDino3" alt="image dinosaure">
+        <img src="images/dino2.png" id="imageDino4" alt="image dinosaure">
+    </div>
+</body>
+</html>
